@@ -47,8 +47,8 @@
             bindings = <
  &kp F1  &kp F2        &kp F3            &kp F4               &kp F5        &kp F6            &tog 1   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
  &trans  &trans  &kp ASTERISK          &kp PLUS            &kp MINUS  &kp QUESTION             &none   &none  &trans  &trans  &trans   &trans   &trans     &trans
- &trans  &trans        &trans  &kp SINGLE_QUOTE  &macro_macro_ctrl-y        &trans             &none  &trans  &trans                   &trans   &trans  &kp COLON  &kp SEMICOLON  &kp UNDERSCORE  &trans  &trans  &trans  &trans
- &trans  &trans     &kp PIPE2     &kp LESS_THAN     &kp GREATER_THAN      &kp PIPE               &trans     &trans          &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans        &trans  &kp SINGLE_QUOTE  &macro_macro_ctrl_y        &trans             &none  &trans  &trans                   &trans   &trans  &kp COLON  &kp SEMICOLON  &kp UNDERSCORE  &trans  &trans  &trans  &trans
+ &trans  &trans     &kp PIPE2     &kp LESS_THAN     &kp GREATER_THAN      &kp PIPE              &trans      &trans          &trans          &trans  &trans  &trans  &trans  &trans
  &trans  &trans        &trans            &trans               &trans        &trans            &trans  &trans  &trans  &trans  &trans   &trans   &trans     &trans         &trans          &trans
             >;
         };
