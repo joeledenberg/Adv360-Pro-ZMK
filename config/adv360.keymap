@@ -49,7 +49,7 @@
  &trans         &kp PLUS     &kp PIPE             &kp MINUS            &kp SLASH         &kp DOT             &none   &none   &none  &trans  &trans   &trans   &trans  &kp TILDE
  &trans           &trans    &kp GRAVE         &kp BACKSLASH  &macro_macro_ctrl_y  &kp UNDERSCORE             &none  &trans  &trans                   &trans   &trans      &none  &kp GREATER_THAN  &kp LESS_THAN  &kp QUESTION  &trans  &trans  &kp TILDE2
  &trans  &kp NON_US_HASH     &kp HASH  &kp NON_US_BACKSLASH            &kp PIPE2   &kp AMPERSAND             &none   &none  &trans   &none   &none   &trans    &none      &none            &trans         &trans        &trans  &trans  &trans      &trans
- &trans       &kp DOLLAR  &kp AT_SIGN       &kp EXCLAMATION          &kp PERCENT          &trans            &trans  &trans  &trans  &trans  &trans   &trans   &trans     &trans            &trans         &trans
+ &trans       &kp RA(NON_US_BACKSLASH)  &kp RA(BACKSLASH)       &kp RA(LESS_THAN)          &kp PERCENT          &trans            &trans  &trans  &trans  &trans  &trans   &trans   &trans     &trans            &trans         &trans
             >;
         };
 
