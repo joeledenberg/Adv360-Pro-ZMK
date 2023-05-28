@@ -79,9 +79,9 @@
 
         layer_MOD_4 {
             bindings = <
- &trans  &trans  &trans    &trans   &trans  &trans             &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans    &trans   &trans  &trans             &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &kp HOME  &kp END  &trans             &trans  &trans  &kp HOME  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp RA(N1) &kp RA(N2) &kp RA(N3)  &kp RA(N4)   &kp RA(N5)             &trans                                                    &kp RA(N6)   &kp RA(N7)  &kp RA(N8)   &kp RA(N9)   &trans  &trans  &trans
+ &trans  &trans  &trans    &kp HOME   &kp END  &trans             &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &macro_macro_left_desktop   &macro_macro_right_desktop   &trans             &trans  &trans  &kp HOME  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans    &trans   &trans  &trans            &kp END  &trans   &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans    &trans   &trans                     &trans  &trans    &trans                  &trans  &trans  &trans          &trans  &trans  &trans   &none   &none
             >;
