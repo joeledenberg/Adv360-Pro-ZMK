@@ -62,8 +62,8 @@
  &trans                 &kp F1         &kp F2                &kp F3          &kp F4                    &kp F5            &tog 1                                                                  &kp F6                 &kp F7            &kp F8                &kp F9           &kp F10        &kp F11    &kp F12
   &none        &kp EXCLAMATION       &kp PIPE             &kp MINUS       &kp SLASH                   &kp DOT             &none                                                                &kp HASH           &kp ASTERISK  &kp RA(NUMBER_7)  &kp LEFT_PARENTHESIS  &kp RA(NUMBER_0)          &none  &kp TILDE
  &trans  &kp RIGHT_PARENTHESIS  &kp BACKSLASH           &kp AT_SIGN  &kp UNDERSCORE       &macro_macro_ctrl_y            &trans             &trans  &trans   &none   &none  &trans  &trans  &kp PERCENT  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN         &kp LESS_THAN      &kp QUESTION  &kp KP_DIVIDE      &none
- &trans        &kp NON_US_HASH       &kp HASH  &kp NON_US_BACKSLASH       &kp PIPE2  &kp RA(NON_US_BACKSLASH)             &none              &none  &trans   &none   &none  &trans   &none        &none              &kp CARET  &kp RA(NUMBER_8)      &kp RA(NUMBER_9)  &kp RA(NUMBER_4)  &kp RA(MINUS)     &trans
- &trans                 &trans          &none                 &none       &kp CARET                                      &trans  &kp LS(LC(ENTER))  &trans                  &trans  &trans       &trans                                   &trans                &trans            &trans         &trans     &trans
+ &trans                  &none          &none  &kp NON_US_BACKSLASH       &kp PIPE2  &kp RA(NON_US_BACKSLASH)             &none              &none  &trans   &none   &none  &trans   &none        &none              &kp CARET  &kp RA(NUMBER_8)      &kp RA(NUMBER_9)  &kp RA(NUMBER_4)  &kp RA(MINUS)     &trans
+ &trans                 &trans          &none                 &none           &none                                      &trans  &kp LS(LC(ENTER))  &trans                  &trans  &trans       &trans                                   &trans                &trans            &trans         &trans     &trans
             >;
         };
 
@@ -79,11 +79,11 @@
 
         layer_MOD_4 {
             bindings = <
- &trans  &kp RA(N1) &kp RA(N2) &kp RA(N3)  &kp RA(N4)   &kp RA(N5)             &trans                                                    &trans   &kp RA(N6)   &kp RA(N7)  &kp RA(N8)   &kp RA(N9)  &trans  &trans
- &trans  &trans  &trans    &kp HOME   &kp END  &trans             &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &macro_macro_left_desktop   &macro_macro_right_desktop   &trans             &trans  &trans  &kp HOME  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans    &trans   &trans  &trans            &kp END  &trans   &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans    &trans   &trans                     &trans  &trans    &trans                  &trans  &trans  &trans          &trans  &trans  &trans   &none   &none
+ &trans  &kp RA(N1)  &kp RA(N2)                 &kp RA(N3)                  &kp RA(N4)  &kp RA(N5)             &trans                                                  &trans  &kp RA(N6)  &kp RA(N7)  &kp RA(N8)  &kp RA(N9)  &kp RA(N0)  &trans
+ &trans      &trans      &trans                   &kp HOME                     &kp END      &trans             &trans                                                  &trans      &trans      &trans      &trans      &trans      &trans  &trans
+ &trans      &trans      &trans  &macro_macro_left_desktop  &macro_macro_right_desktop      &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans      &trans      &trans      &trans  &trans
+ &trans      &trans      &trans                &kp PAGE_UP               &kp PAGE_DOWN      &trans            &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans      &trans      &trans      &trans  &trans
+ &trans      &trans      &trans                     &trans                      &trans                         &trans  &trans  &trans                  &trans  &trans  &trans                  &trans      &trans      &trans       &none   &none
             >;
         };
 
